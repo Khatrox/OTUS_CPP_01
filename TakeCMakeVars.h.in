@@ -1,0 +1,8 @@
+
+#ifndef TAKE_CMAKE_VARS_H
+#define TAKE_CMAKE_VARS_H
+
+#cmakedefine PROJECT_VERSION_PATCH @PROJECT_VERSION_PATCH@
+
+
+#endif

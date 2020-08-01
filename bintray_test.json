@@ -1,0 +1,31 @@
+{
+"package":
+{
+"name": "HelloWorld",
+"repo": "HelloWorld",
+"subject": "khatrox"
+},
+
+"version":
+{
+"name": "0.1",
+"gpgSign": false
+},
+
+"files": [
+{
+"includePattern": "\./(.*\.deb)",
+"uploadPattern": "pool/main/$1",
+"matrixParams":
+{
+"deb_distribution" : "bionic",
+"deb_component": "main",
+"deb_architecture": "amd64",
+"override": true
+}
+}
+],
+
+"publish": true
+
+}
